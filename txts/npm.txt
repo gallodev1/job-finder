@@ -1,0 +1,8 @@
+
+Primeiras dependencias instaladas;
+npm install express express-handlebars body-parser sequelize sqlite3
+
+Emulador de servidor web para não precisar ficar dando refresh na página;
+npm install -D nodemon
+
+Para aplicações pequenas o sqlite3 é bem utilizado mas não é recomendando utilizalo como banco de dados que vai existir muitos dados, é bom par autilizar para armazenar alguma informação do próprio sistema;
